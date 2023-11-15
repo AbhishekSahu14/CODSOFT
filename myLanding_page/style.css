@@ -1,0 +1,281 @@
+body {
+    background-color: rgb(255, 133, 51);
+}
+
+.head {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 200, 151);
+    border-radius: 10px;
+    margin: 0;
+    padding: 25px 0;
+}
+.clr{
+    color: rgb(203, 51, 0);
+}
+.txt::after {
+    content: '';
+    width: 60%;
+    height: 2px;
+    background-color: rgb(126, 51, 0);
+    display: flex;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 9px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(158, 14, 14);
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.signin {
+    background: transparent;
+    border: none;
+}
+
+.signup {
+    color: rgb(249, 249, 217);
+    background-color: rgb(255, 133, 51);
+    border: none;
+    border-radius: 5px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont .contb {
+    max-width: 500px;
+    margin-top: 170px;
+    margin-left: 40px;
+}
+
+.cont .contb h2 {
+    font-size: 3.3em;
+    color: rgb(123, 9, 24);
+    line-height: 1em;
+    margin: 9px;
+}
+
+.cont .contb p {
+    font-size: 1.2em;
+    color: rgb(173, 26, 0);
+    margin: 15px 10px;
+}
+
+.order {
+    color: rgb(249, 249, 217);
+    background-color: rgb(158, 14, 14);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.order:hover {
+    background-color: rgb(249, 249, 217);
+    color: rgb(158, 14, 14);
+}
+
+.img img {
+    width: 90%;
+    margin: 50px 30px;
+}
+
+.infobox {
+    font-size: 0.8em;
+    height: 38px;
+    margin-top: 30px;
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    background-color: rgb(255, 204, 160);
+    outline: 2px solid rgb(204, 81, 0);
+    border-radius: 10px;
+}
+
+.infobox .box {
+    margin: 0 8px;
+}
+
+.infobox .box h4 {
+    font-size: 1.3em;
+    margin: 9px 0;
+}
+
+.catagory {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.catagory .item {
+    width: 90%;
+    position: relative;
+    margin-top: 30px;
+}
+
+.catagory .item h4 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(123, 9, 24);
+    margin-left: 42%;
+    margin-bottom: 80px;
+}
+
+.catagory .item .cardl {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.catagory .cardl .card {
+    width: 250px;
+    height: 250px;
+    display: block;
+    padding: 9px;
+    border-radius: 16px;
+    position: relative;
+    background: rgb(255, 204, 160);
+    outline: 2px solid rgb(204, 81, 0);
+}
+
+.catagory .cardl .card img {
+    width: 110px;
+    height: auto;
+    bottom: 209px;
+    left: 80px;
+    object-position: center;
+    margin-bottom: 12px;
+    position: absolute;
+    box-shadow: 0 15px 20px rgb(255, 133, 51);
+    border-radius: 55%;
+}
+
+.catagory .cardl .card .foodt {
+    padding: 39px 0 10px;
+}
+
+.catagory .cardl .card h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.catagory .card .foodb p {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.catagory .card .price {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.pr{
+    padding: 6px 5px;
+    border-radius: 100px;
+    background-color: rgb(255, 133, 51);
+    outline: 1px solid rgb(223, 89, 0);
+}
+.plus {
+    padding: 4px 7px;
+    font-size: large;
+    background: transparent;
+    border: none;
+    background-color: rgb(255, 133, 51);
+    border-radius: 200px;
+    outline: 1px solid rgb(223, 89, 0);
+}
+
+.four {
+    margin-top: 60px;
+    text-align: center;
+    color: rgb(69, 28, 0);
+}
+.four h3{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(123, 9, 24);
+}
+
+#cm {
+    transition: transform 0.5s;
+    margin-top: 15px;
+}
+
+#cm:hover {
+    color: greenyellow;
+    transform: translateY(-5px);
+}
+
+.social {
+    margin-top: 23px;
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: rgb(218, 0, 131);
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social a:hover {
+    color: greenyellow;
+    transform: translateY(-5px);
+}
+
+footer {
+    margin-top: 40px;
+    color: rgb(203, 51, 0);
+    background-color: rgb(255, 204, 160);
+    border-radius: 9px;
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+
+.copyr {
+        cursor: pointer;
+        text-align: center;
+    
+}
+.copyr a{
+    text-decoration: none;
+    color: rgb(202, 1, 122);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: rgb(255, 16, 24);
+}
