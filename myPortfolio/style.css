@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(1, 1, 38);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(4, 4, 22);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: palevioletred;
+    font-size: 1.025rem;
+}
+main hr{
+    border: 0;
+    background-color: rgb(105, 16, 187);
+    height: 2px;
+    margin: 40px 94px;
+}
+.left{
+    font-size: 2rem;
+}
+.left span{
+    color: rgb(105, 16, 187);
+}
+.first{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first > div{
+    width: 30%;
+}
+.leftS img{
+    width: 75%;
+    margin: 50px 30px;
+}
+.rightS{
+    font-size: 2rem;
+    margin: 50px 0;
+}
+.nameC{
+    color: blueviolet;
+}
+.about{
+    margin-top: 150px;
+    color: rgb(255, 203, 158);
+}
+.bio{
+    margin-top: 10px;
+    font-size: large;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+}
+#sc{
+    font-size: x-large;
+    color: rgb(255, 203, 158);
+}
+#se{
+    margin-top: 13px;
+}
+.third{
+    margin-left: 190px;
+    margin-right: 110px;
+}
+#pr{
+    text-align: center;
+    margin-right: 175px;
+    color: rgb(255, 203, 158);
+}
+#proj{
+    margin-top: 18px;
+}
+.project ul li{
+    color: palevioletred;
+    font-size: large;
+}
+.resume{
+    margin-top: 50px;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(255, 203, 158);
+}
+.btn{
+    background-color: rgb(105, 16, 187);
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 685px;
+    margin-top: 12px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn a:hover{
+    background-color: rgb(16, 141, 209);
+    color: black;
+}
+.four{
+    text-align: center;
+}
+#cm{
+    transition: transform 0.5s;
+    margin-top: 20px;
+}
+#cm:hover{
+    color: #ee004b;
+    transform:  translateY(-5px);
+}
+.social{
+    margin-top: 23px;
+}
+.social a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: aliceblue;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social a:hover{
+    color: #ee004b;
+    transform:  translateY(-5px);
+}
+footer{
+    margin-top: 20px;
+    color: gray;
+    background-color:rgb(4, 4, 22);
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+.copyr{
+    margin-left: 70px;
+}
